@@ -7,7 +7,7 @@ export function Facilities() {
     { icon: Car, name: "Spacious Parking", description: "Secure parking area" },
     { icon: Clock, name: "24-Hour Reception", description: "Always at your service" },
     { icon: Sparkles, name: "Daily Housekeeping", description: "Clean & fresh daily" },
-    { icon: Coffee, name: "Marso Brasserie Café", description: "On-site dining" },
+    { icon: Coffee, name: "Marnos Brasserie Café", description: "On-site dining" },
     { icon: Cake, name: "Papi Papo Bakery", description: "Fresh baked goods" },
     { icon: Building2, name: "Elevator", description: "Easy access" },
     { icon: Armchair, name: "Lobby & Waiting Area", description: "Comfortable space" },

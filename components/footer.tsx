@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Facebook, Instagram, Twitter } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -68,6 +69,27 @@ export function Footer() {
               >
                 <Twitter className="w-5 h-5" />
               </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8 pt-8 border-t border-background/20">
+          <h4 className="font-semibold mb-4 text-center">Accepted Payment Methods</h4>
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            <div className="bg-background rounded-lg p-2 h-12 w-16 flex items-center justify-center">
+              <Image src="/VISA-logo.jpg" alt="Visa" width={60} height={40} className="object-contain" />
+            </div>
+            <div className="bg-background rounded-lg p-2 h-12 w-16 flex items-center justify-center">
+              <Image src="/mastercard.jpg" alt="Mastercard" width={60} height={40} className="object-contain" />
+            </div>
+            <div className="bg-background rounded-lg p-2 h-12 w-16 flex items-center justify-center">
+              <Image src="/JCB_logo.svg.png" alt="JCB" width={60} height={40} className="object-contain" />
+            </div>
+            <div className="bg-background rounded-lg p-2 h-12 w-16 flex items-center justify-center">
+              <Image src="/American-Express.png" alt="American Express" width={60} height={40} className="object-contain" />
+            </div>
+            <div className="bg-background rounded-lg p-2 h-12 w-16 flex items-center justify-center">
+              <Image src="/union pay.jpg" alt="UnionPay" width={60} height={40} className="object-contain" />
             </div>
           </div>
         </div>

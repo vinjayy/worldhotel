@@ -39,6 +39,12 @@ export function Header() {
                 {item.name}
               </Link>
             ))}
+                        <Link
+              href="/terms-and-conditions"
+              className="text-foreground hover:text-primary transition-colors font-medium"
+            >
+              Terms
+            </Link>
             <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
               <a href="https://wa.me/6281809008585" target="_blank" rel="noopener noreferrer">
                 Book via WhatsApp
@@ -65,6 +71,13 @@ export function Header() {
                 {item.name}
               </Link>
             ))}
+            <Link
+              href="/terms-and-conditions"
+              className="block text-foreground hover:text-primary transition-colors font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Terms and Conditions
+            </Link>
             <Button asChild className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
               <a href="https://wa.me/6281809008585" target="_blank" rel="noopener noreferrer">
                 Book via WhatsApp

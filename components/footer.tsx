@@ -41,6 +41,14 @@ export function Footer() {
                   Contact
                 </Link>
               </li>
+                            <li>
+                <Link
+                  href="/terms-and-conditions"
+                  className="text-background/80 hover:text-background transition-colors"
+                >
+                  Terms and Conditions
+                </Link>
+              </li>
             </ul>
           </div>
 
